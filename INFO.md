@@ -18,3 +18,10 @@ sudo apt update
 sudo apt install code
 
 // (master) end 
+
+// update (master) start
+udo apt install software-properties-common apt-transport-https wget
+Затем установите ключ репозитория:
+wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
+И добавьте сам репозиторий
+// update (master) end
