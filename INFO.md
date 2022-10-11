@@ -1,3 +1,10 @@
+// (FEATURE01) start 
+sudo apt install software-properties-common apt-transport-https wget
+Затем установите ключ репозитория:
+wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
+// (FEATURE01) end 
+
+
 // (master) start 
 УСТАНОВКА VISUAL STUDIO CODE НА UBUNTU
 Для работы репозитория нужно установить несколько пакетов. Для этого выполните команду:
