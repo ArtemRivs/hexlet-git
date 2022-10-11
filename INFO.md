@@ -18,3 +18,13 @@ sudo apt update
 sudo apt install code
 
 // (master) end 
+
+// (FEATURE01) start 
+
+После этого остается обновить списки пакетов и установить VS Code:
+
+sudo apt update
+sudo apt install code
+
+// (FEATURE01) end 
+
