@@ -1,4 +1,4 @@
-<!-- (master) start -->
+// (master) start 
 УСТАНОВКА VISUAL STUDIO CODE НА UBUNTU
 Для работы репозитория нужно установить несколько пакетов. Для этого выполните команду:
 
@@ -17,4 +17,4 @@ sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/v
 sudo apt update
 sudo apt install code
 
-<!-- (master) end -->
+// (master) end 
