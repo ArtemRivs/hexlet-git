@@ -11,6 +11,45 @@
 https://githowto.com/ru/more_setup
 HEAD detached from e08fae6
 
+
+Перейдите в рабочий каталог
+
+Перейдите в рабочий каталог и сделайте клон вашего репозитория hello.
+Выполните:
+
+cd ..
+pwd
+ls
+
+Примечание: Сейчас мы находимся в рабочем каталоге.
+Результат:
+
+$ cd ..
+$ pwd
+/Users/alex/Documents/Presentations/githowto/auto
+$ ls
+hello
+
+В этот момент вы должны находиться в «рабочем» каталоге. Здесь должен быть единственный репозиторий под названием «hello».
+02
+Создайте клон репозитория hello
+
+Давайте создадим клон репозитория.
+Выполните:
+
+git clone hello cloned_hello
+ls
+
+Результат:
+
+$ git clone hello cloned_hello
+Cloning into cloned_hello...
+done.
+$ ls
+cloned_hello
+hello
+
+
 $ git branch -a
 * master
   remotes/origin/HEAD -> origin/master
