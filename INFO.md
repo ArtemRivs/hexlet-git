@@ -9,3 +9,5 @@
 <p>Text of main block #003</p>
 
 https://githowto.com/ru/more_setup
+HEAD detached from e08fae6
+
