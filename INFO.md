@@ -11,3 +11,10 @@
 https://githowto.com/ru/more_setup
 HEAD detached from e08fae6
 
+$ git branch -a
+* master
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/style
+  remotes/origin/master
+
+Git выводит все коммиты в оригинальный репозиторий, но ветки в удаленном репозитории не рассматриваются как локальные. Если мы хотим иметь собственную ветку style, мы должны сами ее создать. Через минуту вы увидите, как это делается.
